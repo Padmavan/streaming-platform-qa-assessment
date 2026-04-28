@@ -2,19 +2,19 @@
 
 ## Project Structure
 
-tests/
-└── chat.spec.ts
+    tests/
+    └── chat.spec.ts
 
-test-plan/
-└── test-cases.md
+    test-plan/
+    └── test-cases.md
 
-postman/
-├── Streaming Platform API Tests.postman_collection.json
-└── Streaming Platform ENV.postman_environment.json
+    postman/
+    ├── Streaming Platform API Tests.postman_collection.json
+    └── Streaming Platform ENV.postman_environment.json
 
-critical-thinking/
-└── answers.md
-
+    critical-thinking/
+    └── answers.md
+    
 ---
 
 ## Setup & Run
