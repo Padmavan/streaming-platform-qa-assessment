@@ -15,6 +15,9 @@
     critical-thinking/
     └── answers.md
     
+     screenshots/
+    └── playwright-passing-run.png
+    
 ---
 
 ## Setup & Run
