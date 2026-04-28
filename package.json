@@ -1,0 +1,24 @@
+{
+  "name": "streaming-platform-qa-assessment",
+  "version": "1.0.0",
+  "description": "Home task",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Padmavan/streaming-platform-qa-assessment/issues"
+  },
+  "homepage": "https://github.com/Padmavan/streaming-platform-qa-assessment#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}
