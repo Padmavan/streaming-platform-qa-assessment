@@ -89,9 +89,11 @@ command.
 
 ## Test Coverage Summary
 
-Chat send, delete, timeout — E2E — Playwright
-Moderation flag and delete — API — Postman
-Messages API CRUD — API — Postman
-Auth boundaries 401 and 403 — API — Postman
-Video player, auth flows, replay — Manual — test-plan/test-cases.md
-WebSocket and incident response — Critical Thinking — critical-thinking/answers.md
+| Area | Type | Tool |
+|------|------|------|
+| Chat — send, delete, timeout | E2E | Playwright |
+| Moderation — flag, delete | API | Postman |
+| Messages API CRUD | API | Postman |
+| Auth boundaries 401 and 403 | API | Postman |
+| Video player, auth flows, replay | Manual | test-plan/test-cases.md |
+| WebSocket and incident response | Critical Thinking | critical-thinking/answers.md |
