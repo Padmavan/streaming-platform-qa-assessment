@@ -1,8 +1,6 @@
 ## Q1 — WebSocket Interruption
 
 **How would you simulate network loss mid-stream?**
-
-- Use Playwright's `context.setOffline(true)` to simulate complete network loss mid-session
 - Use Chrome DevTools to throttle network to 0kbps at a specific moment during streaming
 - For more realistic scenarios — use a network proxy tool like Charles Proxy 
 
@@ -34,7 +32,6 @@
 
 **Minute 2-5 — Immediate escalation**
 - Notify the Engineering Lead and Product Manager simultaneously via Slack/phone
-- Use a clear, factual message — no panic, no speculation:
 
   > "Critical bug confirmed on staging/prod: [one sentence description].
   > Impact: [who is affected and how].
@@ -52,10 +49,8 @@
 
 **Minute 9-10 — Document**
 - Write a brief incident note: what was found, when, by whom, what decision was made
-- This becomes the basis for the post-mortem after the stream
 
 **After the stream**
 - Write a full incident report: timeline, root cause, impact, resolution
 - Propose a regression test to cover this scenario going forward
 - Participate in post-mortem to prevent recurrence
-
