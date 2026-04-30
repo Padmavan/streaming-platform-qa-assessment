@@ -16,7 +16,7 @@
 ### Tools
 - **Playwright** — UI and E2E automation
 - **Postman** — API contract and negative testing
-- **Notion / TestRail** — test case management
+- **TestRail** — test case management
 
 ### Entry Criteria
 - Staging environment is stable and accessible
@@ -38,7 +38,7 @@
 
 **Risk 2 — Moderation actions not propagating in real time**
 - **Impact:** Deleted or timed-out users can continue posting; harmful content remains visible
-- **Mitigation:** Test delete/timeout across multiple concurrent sessions; verify all clients receive update within acceptable latency
+- **Mitigation:** Test delete across multiple concurrent sessions; verify all clients receive update within acceptable latency
 
 **Risk 3 — Unauthenticated access to protected routes and WebSocket**
 - **Impact:** Security breach; anonymous users post messages or access private streams
